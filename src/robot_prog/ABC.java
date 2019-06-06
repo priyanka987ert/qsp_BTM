@@ -18,7 +18,7 @@ public static void main(String[] args) throws AWTException {
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.google.com/");
 	WebElement wb = driver.findElement(By.className("gLFyf gsfi"));
-	wb.
+	
 	java.awt.Robot robot = new java.awt.Robot();
 	robot.keyPress(KeyEvent.VK_CAPS_LOCK);
 	robot.keyRelease(KeyEvent.VK_CAPS_LOCK);
